@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kyoungcai.mytextimageview.MainActivity">
+
+    <com.example.kyoungcai.mytextimageview.view.MyImageTextView
+        app:TextSize="20sp"
+        app:TextColor="@color/colorPrimary"
+        app:Text="@string/app_name"
+        app:Src="@mipmap/ic_launcher_round"
+        app:ImageSize="35dp"
+        app:ImgTextMargin="5dp"
+        app:Oriental="Vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>

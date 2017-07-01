@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyImageTextView">
+        <attr name="Text" format="reference|string"/>
+        <attr name="Oriental">
+
+            <enum name="Vertical" value="0"/>
+            <enum name="Horizontal" value="1"/>
+
+        </attr>
+        <attr name="Src" format="reference|integer"/>
+
+        <!--指定字体文字大小-->
+        <attr name="TextSize" format="dimension"/>
+
+        <!--指定字体颜色-->
+        <attr name="TextColor" format="color"/>
+        <!--图标大小-->
+        <attr name="ImageSize" format="dimension"/>
+
+        <!--设置图标与文字之间的间距-->
+        <attr name="ImgTextMargin" format="dimension"/>
+    </declare-styleable>
+</resources>
